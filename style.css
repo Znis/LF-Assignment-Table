@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    width: 70vw;
+    font-family: "Space Grotesk", sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.header{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+}
+.header p{
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 1rem;
+    color: #222;
+    outline: 2px solid orange;
+}
+.record{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    outline: 1px solid orange;
+}
+.record p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    color: #444;
+}
+.code{
+background-color: orange;
+padding: 5px 10px;
+border-radius: 10%;
+height: 30px;
+
+}
+.gpage{
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background-color: aqua;
+}
