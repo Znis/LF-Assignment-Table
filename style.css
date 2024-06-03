@@ -29,6 +29,7 @@ body{
     align-items: center;
     width: 100%;
     gap: 2rem;
+    margin: 2rem 0rem;
     outline: 1px solid orange;
 }
 .record p{
