@@ -30,6 +30,7 @@ body{
     width: 100%;
     gap: 2rem;
     margin: 1rem 0rem;
+    padding: 1rem;
     outline: 1px solid orange;
 }
 .record p{
@@ -38,7 +39,17 @@ body{
     padding: 1rem;
     color: #444;
 }
+
+.title{
+    flex: 5;
+}
+
+.category{
+    flex:1
+}
+
 .code{
+flex:1
 background-color: orange;
 padding: 5px 10px;
 border-radius: 10%;
@@ -46,6 +57,7 @@ height: 30px;
 
 }
 .gpage{
+    flex:1
     height: 30px;
     padding: 5px 10px;
     border-radius: 10%;
